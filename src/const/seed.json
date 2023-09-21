@@ -1,0 +1,2472 @@
+[
+  {
+    "session": [
+      {
+        "id": "f0eb00a0-459f-4410-a0c4-db7a5c6b833a",
+        "login_time": "2023-09-20T23:22:50.771Z",
+        "logout_time": "2023-09-20T20:10:47.843Z",
+        "ip_address": "192.168.0.1",
+        "device_info": "Windows 10",
+        "location": "New York",
+        "created_at": "2023-09-21T09:28:40.385Z",
+        "updated_at": "2023-09-20T20:12:28.837Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "3d040481-ef4d-4c0b-9eda-8f0c617bc119",
+        "login_time": "2023-09-20T20:20:47.474Z",
+        "logout_time": "2023-09-20T19:39:14.850Z",
+        "ip_address": "10.0.0.1",
+        "device_info": "MacOS Mojave",
+        "location": "London",
+        "created_at": "2023-09-21T10:41:43.367Z",
+        "updated_at": "2023-09-21T05:50:21.408Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "945e40a0-a3cc-4eb9-bd04-5f9153c7d30c",
+        "login_time": "2023-09-21T11:16:05.761Z",
+        "logout_time": "2023-09-21T11:59:39.956Z",
+        "ip_address": "172.16.0.1",
+        "device_info": "iOS 13",
+        "location": "Tokyo",
+        "created_at": "2023-09-20T22:36:37.372Z",
+        "updated_at": "2023-09-20T20:43:36.370Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "49b4e5f9-45e0-4576-a425-4d2c84d9545d",
+        "login_time": "2023-09-20T18:57:32.208Z",
+        "logout_time": "2023-09-21T06:42:56.966Z",
+        "ip_address": "192.168.1.1",
+        "device_info": "Android 10",
+        "location": "Sydney",
+        "created_at": "2023-09-21T14:29:16.108Z",
+        "updated_at": "2023-09-20T21:35:18.694Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "5094fc9a-e3cf-4454-b984-4eff3823af1f",
+        "login_time": "2023-09-21T12:09:50.879Z",
+        "logout_time": "2023-09-21T05:38:33.319Z",
+        "ip_address": "192.0.2.1",
+        "device_info": "Linux Ubuntu",
+        "location": "Paris",
+        "created_at": "2023-09-20T23:08:52.906Z",
+        "updated_at": "2023-09-20T19:44:03.861Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "key": [
+      {
+        "id": "2e70c524-64c3-4c4b-ba11-dbf58caaed07",
+        "key_value": "abc123",
+        "expires_at": "2023-09-21T05:16:56.105Z",
+        "created_at": "2023-09-21T14:45:45.327Z",
+        "updated_at": "2023-09-20T23:27:54.323Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "e96ff905-f722-4336-aa7b-f01c0df18f07",
+        "key_value": "def456",
+        "expires_at": "2023-09-20T23:10:13.564Z",
+        "created_at": "2023-09-20T17:30:38.479Z",
+        "updated_at": "2023-09-21T03:30:54.375Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "cfe7b8a7-da47-4261-935f-4434c38b0780",
+        "key_value": "ghi789",
+        "expires_at": "2023-09-21T01:00:45.110Z",
+        "created_at": "2023-09-20T22:45:03.035Z",
+        "updated_at": "2023-09-21T02:32:31.782Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "36411b92-38e3-4b3f-8fa1-bca58a2371e3",
+        "key_value": "jkl012",
+        "expires_at": "2023-09-20T19:10:52.640Z",
+        "created_at": "2023-09-20T17:51:08.178Z",
+        "updated_at": "2023-09-21T14:07:42.366Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "946a8a45-46e4-439a-a2a8-a95cfe1c87ba",
+        "key_value": "mno345",
+        "expires_at": "2023-09-21T07:01:03.267Z",
+        "created_at": "2023-09-21T00:41:21.692Z",
+        "updated_at": "2023-09-21T10:13:19.956Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "audit_log": [
+      {
+        "id": "6d2d8985-48a3-4526-a81a-3ac8010daf76",
+        "action": "Login",
+        "timestamp": "2023-09-21T08:12:56.753Z",
+        "description": "User login",
+        "ip_address": "192.168.0.100",
+        "device_info": "Windows 7",
+        "created_at": "2023-09-21T15:48:27.854Z",
+        "updated_at": "2023-09-21T06:35:54.839Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "be8d9e3c-e2f2-4503-9209-26b0899bbc21",
+        "action": "Logout",
+        "timestamp": "2023-09-21T08:55:14.714Z",
+        "description": "User logout",
+        "ip_address": "10.0.0.100",
+        "device_info": "MacOS High Sierra",
+        "created_at": "2023-09-20T17:57:26.961Z",
+        "updated_at": "2023-09-21T09:23:41.254Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "11caf632-9a03-45d4-8416-f242e3533dc5",
+        "action": "Create",
+        "timestamp": "2023-09-20T23:44:30.572Z",
+        "description": "Record creation",
+        "ip_address": "172.16.0.100",
+        "device_info": "iOS 12",
+        "created_at": "2023-09-21T00:22:54.760Z",
+        "updated_at": "2023-09-21T12:40:30.139Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "6175b638-e0b5-495d-9cbb-611626d302b3",
+        "action": "Update",
+        "timestamp": "2023-09-21T00:13:56.854Z",
+        "description": "Record update",
+        "ip_address": "192.168.1.100",
+        "device_info": "Android 9",
+        "created_at": "2023-09-21T09:06:23.956Z",
+        "updated_at": "2023-09-21T10:27:04.279Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "785a3a28-5430-4b1c-8a07-b3b1503b0c54",
+        "action": "Delete",
+        "timestamp": "2023-09-21T16:52:43.765Z",
+        "description": "Record deletion",
+        "ip_address": "192.0.2.100",
+        "device_info": "Linux Fedora",
+        "created_at": "2023-09-21T14:26:31.459Z",
+        "updated_at": "2023-09-21T07:58:28.578Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "account": [
+      {
+        "id": "97dbb36e-282c-4187-a564-dd90af7f7861",
+        "account_name": "Savings Account",
+        "status": "Active",
+        "created_at": "2023-09-20T23:04:27.188Z",
+        "updated_at": "2023-09-21T14:51:41.836Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "33240dac-c58c-4f07-a3e4-0b2b84d1c360",
+        "account_name": "Checking Account",
+        "status": "Inactive",
+        "created_at": "2023-09-21T14:59:40.809Z",
+        "updated_at": "2023-09-21T04:41:42.740Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "5ff20786-bd2c-4171-bfbc-5ba61c4caa75",
+        "account_name": "Investment Account",
+        "status": "Pending",
+        "created_at": "2023-09-21T11:14:22.631Z",
+        "updated_at": "2023-09-20T22:38:16.293Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "ce283cd9-de9e-4122-b9c3-91766195bae7",
+        "account_name": "Credit Card Account",
+        "status": "Closed",
+        "created_at": "2023-09-21T04:20:33.549Z",
+        "updated_at": "2023-09-20T20:24:24.570Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "f8909ad3-a105-4822-b686-cd1dfc4ea64c",
+        "account_name": "Loan Account",
+        "status": "Blocked",
+        "created_at": "2023-09-21T05:07:15.023Z",
+        "updated_at": "2023-09-20T21:11:45.119Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "d581145a-1668-4bc5-b6ed-9e8feb2dc914",
+        "email": "Larry77@roq.tech",
+        "firstName": "Ronaldo",
+        "lastName": "Larkin",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/98861319",
+        "tenantId": null
+      },
+      {
+        "reference": "029f56b2-06e7-4ad8-9b7b-be608ba62956",
+        "email": "Keyshawn79@roq.tech",
+        "firstName": "Annetta",
+        "lastName": "Stokes",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/80.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "de597b6b-3f9e-4816-81d8-b8c88bfda521",
+        "email": "Maryjane89@roq.tech",
+        "firstName": "Sandy",
+        "lastName": "Gibson",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/76333053",
+        "tenantId": null
+      },
+      {
+        "reference": "10d98cd5-eecf-416e-8a6e-13d5297ded1c",
+        "email": "Kade.Christiansen@roq.tech",
+        "firstName": "Hershel",
+        "lastName": "Baumbach",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/73115441",
+        "tenantId": null
+      },
+      {
+        "reference": "c5aafcd1-9d24-4da9-9fd7-3112068c5383",
+        "email": "Dedric.Macejkovic4@roq.tech",
+        "firstName": "Daphnee",
+        "lastName": "Kassulke",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/13186787",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "session": [
+      {
+        "id": "4ec1e470-c20c-4bcc-a92f-0a02d29f76af",
+        "login_time": "2023-09-21T09:55:22.643Z",
+        "logout_time": "2023-09-20T20:59:29.197Z",
+        "ip_address": "192.168.0.1",
+        "device_info": "Windows 10",
+        "location": "New York",
+        "created_at": "2023-09-21T07:18:22.328Z",
+        "updated_at": "2023-09-20T23:01:15.255Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "be66e372-5d85-4b13-83e1-37bdffe4c74b",
+        "login_time": "2023-09-20T23:14:53.255Z",
+        "logout_time": "2023-09-21T12:10:02.309Z",
+        "ip_address": "10.0.0.1",
+        "device_info": "MacOS Catalina",
+        "location": "London",
+        "created_at": "2023-09-21T04:35:52.124Z",
+        "updated_at": "2023-09-20T18:27:55.137Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "a3180b71-3f37-4e70-9654-dc43bdad8561",
+        "login_time": "2023-09-21T13:53:42.245Z",
+        "logout_time": "2023-09-21T07:51:37.358Z",
+        "ip_address": "172.16.0.1",
+        "device_info": "iOS 14",
+        "location": "Tokyo",
+        "created_at": "2023-09-21T09:30:47.258Z",
+        "updated_at": "2023-09-21T06:59:15.625Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "ad36fb08-1c2c-493a-af81-13c67fa6127a",
+        "login_time": "2023-09-21T15:00:48.593Z",
+        "logout_time": "2023-09-20T18:16:44.642Z",
+        "ip_address": "192.168.1.1",
+        "device_info": "Android 11",
+        "location": "Sydney",
+        "created_at": "2023-09-21T04:42:46.419Z",
+        "updated_at": "2023-09-21T09:24:58.155Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "5f93a6b0-4566-4145-ae4c-c7a6dada4f64",
+        "login_time": "2023-09-20T21:23:27.069Z",
+        "logout_time": "2023-09-20T20:37:55.802Z",
+        "ip_address": "192.168.2.1",
+        "device_info": "Linux Ubuntu",
+        "location": "Paris",
+        "created_at": "2023-09-21T08:12:43.334Z",
+        "updated_at": "2023-09-20T22:28:06.924Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "key": [
+      {
+        "id": "31255b70-c2f7-4550-9a7a-1b8d56da7a3e",
+        "key_value": "abc123",
+        "expires_at": "2023-09-21T11:59:45.713Z",
+        "created_at": "2023-09-20T18:13:46.687Z",
+        "updated_at": "2023-09-20T18:21:54.324Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "8dcb4ebe-ce66-4e6e-8cea-27e9e08872f9",
+        "key_value": "def456",
+        "expires_at": "2023-09-20T23:45:42.808Z",
+        "created_at": "2023-09-21T11:00:27.728Z",
+        "updated_at": "2023-09-20T23:50:38.466Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "6203efa8-9747-470d-b979-455b63915cae",
+        "key_value": "ghi789",
+        "expires_at": "2023-09-21T11:43:10.344Z",
+        "created_at": "2023-09-20T22:30:55.615Z",
+        "updated_at": "2023-09-21T04:56:07.125Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "92630430-d21c-44b5-8e04-f41a7e91524b",
+        "key_value": "jkl012",
+        "expires_at": "2023-09-21T01:00:48.618Z",
+        "created_at": "2023-09-21T14:55:04.790Z",
+        "updated_at": "2023-09-21T03:05:38.749Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "13c85d4b-2acd-4319-8944-b1e99d7ff3c9",
+        "key_value": "mno345",
+        "expires_at": "2023-09-21T07:34:57.190Z",
+        "created_at": "2023-09-21T13:39:13.359Z",
+        "updated_at": "2023-09-21T15:41:02.099Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "audit_log": [
+      {
+        "id": "d3c8d203-e647-4590-85e8-12da7a16c5fa",
+        "action": "Login",
+        "timestamp": "2023-09-21T16:44:39.162Z",
+        "description": "User login",
+        "ip_address": "192.168.0.10",
+        "device_info": "Windows 11",
+        "created_at": "2023-09-21T07:21:19.651Z",
+        "updated_at": "2023-09-21T16:33:05.373Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "b7d53e15-d6a7-4c69-9691-385fbc2719ca",
+        "action": "Logout",
+        "timestamp": "2023-09-21T01:31:47.289Z",
+        "description": "User logout",
+        "ip_address": "10.0.0.10",
+        "device_info": "MacOS Big Sur",
+        "created_at": "2023-09-20T23:55:49.860Z",
+        "updated_at": "2023-09-21T08:52:25.168Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "8201c668-2de9-4c6a-874e-768e28a506e5",
+        "action": "Create",
+        "timestamp": "2023-09-20T23:05:39.343Z",
+        "description": "Record creation",
+        "ip_address": "172.16.0.10",
+        "device_info": "iOS 15",
+        "created_at": "2023-09-20T21:17:41.297Z",
+        "updated_at": "2023-09-21T00:59:40.165Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "6b5bf8c1-41e8-4bc6-b058-9f33718ccf93",
+        "action": "Update",
+        "timestamp": "2023-09-21T06:44:26.166Z",
+        "description": "Record update",
+        "ip_address": "192.168.1.10",
+        "device_info": "Android 12",
+        "created_at": "2023-09-21T07:19:19.818Z",
+        "updated_at": "2023-09-21T14:29:16.322Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "a205fc9c-9146-4826-ad11-c31e502e9fdf",
+        "action": "Delete",
+        "timestamp": "2023-09-21T13:01:44.187Z",
+        "description": "Record deletion",
+        "ip_address": "192.168.2.10",
+        "device_info": "Linux Fedora",
+        "created_at": "2023-09-21T11:48:09.401Z",
+        "updated_at": "2023-09-21T14:32:53.237Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "account": [
+      {
+        "id": "75f83fb4-7188-46f0-90e0-211d633a8c60",
+        "account_name": "Personal Savings",
+        "status": "Active",
+        "created_at": "2023-09-21T04:35:06.815Z",
+        "updated_at": "2023-09-21T08:49:23.603Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "b2aa844c-18bd-4724-9c14-d66cb04ba0d8",
+        "account_name": "Business Checking",
+        "status": "Inactive",
+        "created_at": "2023-09-21T07:45:54.163Z",
+        "updated_at": "2023-09-21T04:39:11.863Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "42fa6577-f66e-4491-ad68-06f8e86a921b",
+        "account_name": "Investment Portfolio",
+        "status": "Pending",
+        "created_at": "2023-09-21T05:35:44.181Z",
+        "updated_at": "2023-09-21T06:06:55.819Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "05b7b522-58b8-45f0-93b8-4ac7c48c2a0e",
+        "account_name": "Credit Card",
+        "status": "Closed",
+        "created_at": "2023-09-21T00:52:16.168Z",
+        "updated_at": "2023-09-21T02:02:03.697Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "0b2edd00-97bf-4e62-9415-d641f6c71c1e",
+        "account_name": "Mortgage Loan",
+        "status": "Suspended",
+        "created_at": "2023-09-21T03:17:49.076Z",
+        "updated_at": "2023-09-21T10:40:55.812Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "268ac6ee-d776-48ce-abfd-738d3acdc985",
+        "email": "Heidi_Leannon11@roq.tech",
+        "firstName": "Cleta",
+        "lastName": "Lakin-Jacobs",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/910.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "15053684-d35a-46d8-9f90-d4851ee0c343",
+        "email": "Kenna_Moore@roq.tech",
+        "firstName": "Bette",
+        "lastName": "Kutch",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/71930963",
+        "tenantId": null
+      },
+      {
+        "reference": "2ca90e94-819b-4859-ae93-2d09d380aca5",
+        "email": "Maxine41@roq.tech",
+        "firstName": "Leila",
+        "lastName": "Streich",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/855.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "5875b5f8-f221-4055-8c70-889fdc87e8b9",
+        "email": "Sydney44@roq.tech",
+        "firstName": "Simone",
+        "lastName": "Kris",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/62019140",
+        "tenantId": null
+      },
+      {
+        "reference": "8fa0eb54-fa4e-4c5f-aa85-ce7b8a11931d",
+        "email": "Sofia17@roq.tech",
+        "firstName": "Edyth",
+        "lastName": "Dare",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/186.jpg",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "session": [
+      {
+        "id": "f5a1ba94-1e94-41bd-93af-82758033578f",
+        "login_time": "2023-09-20T21:19:49.693Z",
+        "logout_time": "2023-09-20T19:31:31.267Z",
+        "ip_address": "192.168.0.1",
+        "device_info": "Windows 10",
+        "location": "New York",
+        "created_at": "2023-09-21T02:23:39.112Z",
+        "updated_at": "2023-09-21T02:44:23.245Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "43e586e5-155f-4fa2-b364-bc460dc7714b",
+        "login_time": "2023-09-21T05:30:12.344Z",
+        "logout_time": "2023-09-21T07:33:12.533Z",
+        "ip_address": "10.0.0.1",
+        "device_info": "MacOS Catalina",
+        "location": "London",
+        "created_at": "2023-09-21T08:17:49.038Z",
+        "updated_at": "2023-09-21T12:21:30.876Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "6989ce72-cbfc-491a-a314-8e88f29a3dc4",
+        "login_time": "2023-09-21T02:26:31.279Z",
+        "logout_time": "2023-09-20T22:36:05.356Z",
+        "ip_address": "172.16.0.1",
+        "device_info": "iOS 14",
+        "location": "Tokyo",
+        "created_at": "2023-09-20T20:58:31.979Z",
+        "updated_at": "2023-09-21T15:37:43.817Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "b4940965-e789-4796-bae2-d14165f04615",
+        "login_time": "2023-09-21T09:46:51.945Z",
+        "logout_time": "2023-09-21T07:47:16.119Z",
+        "ip_address": "192.168.1.1",
+        "device_info": "Android 11",
+        "location": "Sydney",
+        "created_at": "2023-09-21T00:20:36.191Z",
+        "updated_at": "2023-09-20T20:28:08.504Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "b380f3e3-ee65-408a-a497-753822a06163",
+        "login_time": "2023-09-21T06:39:26.127Z",
+        "logout_time": "2023-09-21T02:10:10.628Z",
+        "ip_address": "10.0.1.1",
+        "device_info": "Linux Ubuntu",
+        "location": "Paris",
+        "created_at": "2023-09-21T04:07:54.217Z",
+        "updated_at": "2023-09-21T05:00:45.290Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "key": [
+      {
+        "id": "51912ff0-11c1-40c9-862f-d620e7bd52a4",
+        "key_value": "ABC123",
+        "expires_at": "2023-09-20T23:46:46.123Z",
+        "created_at": "2023-09-21T11:50:35.081Z",
+        "updated_at": "2023-09-20T22:14:52.849Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "17ef8add-e5f8-4c58-b80e-79512a6fd0f6",
+        "key_value": "DEF456",
+        "expires_at": "2023-09-20T17:29:23.348Z",
+        "created_at": "2023-09-21T03:04:00.796Z",
+        "updated_at": "2023-09-21T16:43:31.618Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "fb41d924-2666-4d9c-87a7-9e11cb33ba0a",
+        "key_value": "GHI789",
+        "expires_at": "2023-09-21T06:36:14.856Z",
+        "created_at": "2023-09-21T11:47:09.301Z",
+        "updated_at": "2023-09-20T19:09:38.258Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "08c48a48-027e-434a-b928-69468d94124a",
+        "key_value": "JKL012",
+        "expires_at": "2023-09-21T00:21:20.711Z",
+        "created_at": "2023-09-20T20:12:52.981Z",
+        "updated_at": "2023-09-20T18:59:37.502Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "66c017c6-0f73-4392-8a13-b9f80caa8082",
+        "key_value": "MNO345",
+        "expires_at": "2023-09-20T22:56:33.470Z",
+        "created_at": "2023-09-21T08:41:21.755Z",
+        "updated_at": "2023-09-20T23:20:17.830Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "audit_log": [
+      {
+        "id": "c1ebdb71-11ae-4438-98a9-1eff50ae4c2b",
+        "action": "Login",
+        "timestamp": "2023-09-21T10:50:02.765Z",
+        "description": "User logged in successfully",
+        "ip_address": "192.168.0.1",
+        "device_info": "Windows 10",
+        "created_at": "2023-09-21T03:51:47.454Z",
+        "updated_at": "2023-09-20T23:12:27.462Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "4ebac03b-ec61-4191-a026-0401cd737c3b",
+        "action": "Logout",
+        "timestamp": "2023-09-21T13:00:00.125Z",
+        "description": "User logged out",
+        "ip_address": "10.0.0.1",
+        "device_info": "MacOS Catalina",
+        "created_at": "2023-09-21T11:12:59.110Z",
+        "updated_at": "2023-09-21T05:05:06.795Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "99e1758d-f41b-4ebd-b9ae-f8fca7a7a44b",
+        "action": "Create",
+        "timestamp": "2023-09-21T16:53:42.726Z",
+        "description": "Record created",
+        "ip_address": "172.16.0.1",
+        "device_info": "iOS 14",
+        "created_at": "2023-09-21T00:54:37.137Z",
+        "updated_at": "2023-09-21T02:09:55.555Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "f7612845-c6a0-48f5-a693-7190e4187235",
+        "action": "Update",
+        "timestamp": "2023-09-21T16:38:54.072Z",
+        "description": "Record updated",
+        "ip_address": "192.168.1.1",
+        "device_info": "Android 11",
+        "created_at": "2023-09-21T04:51:41.675Z",
+        "updated_at": "2023-09-20T22:04:54.329Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "21b838e3-e11b-4eb6-90a6-ed66e908b43c",
+        "action": "Delete",
+        "timestamp": "2023-09-21T03:28:13.314Z",
+        "description": "Record deleted",
+        "ip_address": "10.0.1.1",
+        "device_info": "Linux Ubuntu",
+        "created_at": "2023-09-20T22:01:42.554Z",
+        "updated_at": "2023-09-21T03:30:04.102Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "account": [
+      {
+        "id": "216f0caf-5d3f-413f-b2ac-a224c6013dc3",
+        "account_name": "Savings",
+        "status": "Active",
+        "created_at": "2023-09-20T20:40:32.271Z",
+        "updated_at": "2023-09-21T01:22:29.495Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "07205ec6-4571-4f90-87d5-3e0496457a5b",
+        "account_name": "Checking",
+        "status": "Inactive",
+        "created_at": "2023-09-21T14:57:27.234Z",
+        "updated_at": "2023-09-21T09:55:48.236Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "9614089c-3323-47f6-8db5-a2533828fd17",
+        "account_name": "Investment",
+        "status": "Pending",
+        "created_at": "2023-09-21T00:22:02.265Z",
+        "updated_at": "2023-09-20T19:35:38.216Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "47a17730-f28b-4ebb-9e68-cd9be45e5c4b",
+        "account_name": "Credit Card",
+        "status": "Blocked",
+        "created_at": "2023-09-21T08:56:46.749Z",
+        "updated_at": "2023-09-21T02:25:02.390Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "56e12261-e60f-4f37-ac2d-d2a7de7ee877",
+        "account_name": "Loan",
+        "status": "Closed",
+        "created_at": "2023-09-21T15:10:04.752Z",
+        "updated_at": "2023-09-21T05:10:42.966Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "1ea2f00f-64f9-4ad8-9335-4194049e9942",
+        "email": "Sabrina.Jenkins59@roq.tech",
+        "firstName": "Lydia",
+        "lastName": "Hagenes",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/587.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "c98671e1-b5f6-42e6-8df6-6c3418a9c80c",
+        "email": "Aurore.Bins15@roq.tech",
+        "firstName": "Vince",
+        "lastName": "Smitham",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/682.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "a81cb177-e2e8-46a5-b220-0a7c6af33477",
+        "email": "Jayson1@roq.tech",
+        "firstName": "Presley",
+        "lastName": "Schmitt",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/939.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "c10f4e4a-2232-4167-9167-32c08da47342",
+        "email": "Baby_Herman@roq.tech",
+        "firstName": "Jalyn",
+        "lastName": "Rolfson",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/24942895",
+        "tenantId": null
+      },
+      {
+        "reference": "f424cea6-4cc9-4098-9222-d681dd4f0e11",
+        "email": "Gerardo.Maggio@roq.tech",
+        "firstName": "Dora",
+        "lastName": "Cummerata",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/6853273",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "session": [
+      {
+        "id": "2f7b621c-daf3-4b56-8f20-f3180ef7a0d1",
+        "login_time": "2023-09-21T14:24:02.828Z",
+        "logout_time": "2023-09-20T17:09:12.888Z",
+        "ip_address": "192.168.0.1",
+        "device_info": "Windows 10",
+        "location": "New York",
+        "created_at": "2023-09-21T07:18:46.758Z",
+        "updated_at": "2023-09-20T22:22:32.565Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "17d95246-37d9-4004-a3df-8892eff77f79",
+        "login_time": "2023-09-20T22:40:52.344Z",
+        "logout_time": "2023-09-21T11:13:12.141Z",
+        "ip_address": "10.0.0.1",
+        "device_info": "MacOS Mojave",
+        "location": "London",
+        "created_at": "2023-09-21T03:05:10.597Z",
+        "updated_at": "2023-09-21T08:29:31.294Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "6c9aaaa0-dc81-41c1-a719-e71002e17a0a",
+        "login_time": "2023-09-21T11:50:08.152Z",
+        "logout_time": "2023-09-21T13:10:28.467Z",
+        "ip_address": "172.16.0.1",
+        "device_info": "iOS 13",
+        "location": "Tokyo",
+        "created_at": "2023-09-20T21:51:30.864Z",
+        "updated_at": "2023-09-21T06:06:28.110Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "67d5e5f0-fc4c-4816-adc2-3a45011ae920",
+        "login_time": "2023-09-21T09:01:01.954Z",
+        "logout_time": "2023-09-21T01:48:51.471Z",
+        "ip_address": "192.0.2.1",
+        "device_info": "Android 10",
+        "location": "Sydney",
+        "created_at": "2023-09-21T06:44:57.520Z",
+        "updated_at": "2023-09-21T08:07:16.383Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "27d86d6c-1991-4a8d-b348-a9ac62b8c021",
+        "login_time": "2023-09-21T15:18:46.148Z",
+        "logout_time": "2023-09-21T02:57:19.659Z",
+        "ip_address": "198.51.100.1",
+        "device_info": "Linux Mint",
+        "location": "Paris",
+        "created_at": "2023-09-21T08:23:15.106Z",
+        "updated_at": "2023-09-21T09:25:09.825Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "key": [
+      {
+        "id": "04190557-17b7-4556-b983-2609185feaec",
+        "key_value": "a1b2c3d4e5",
+        "expires_at": "2023-09-21T08:44:49.214Z",
+        "created_at": "2023-09-20T17:27:25.793Z",
+        "updated_at": "2023-09-21T11:30:20.327Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "b4f0e99f-13e8-4a86-b6ce-fafe63a74b7f",
+        "key_value": "f6g7h8i9j0",
+        "expires_at": "2023-09-21T16:18:52.308Z",
+        "created_at": "2023-09-21T07:07:03.820Z",
+        "updated_at": "2023-09-20T22:18:32.639Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "44e240d9-8b02-41e8-b018-9437eae03ded",
+        "key_value": "k1l2m3n4o5",
+        "expires_at": "2023-09-21T02:27:37.019Z",
+        "created_at": "2023-09-21T16:52:38.897Z",
+        "updated_at": "2023-09-21T05:00:38.605Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "0977e3bd-3e11-4852-93c7-ad5de835aec6",
+        "key_value": "p6q7r8s9t0",
+        "expires_at": "2023-09-21T11:19:46.848Z",
+        "created_at": "2023-09-21T00:40:52.947Z",
+        "updated_at": "2023-09-21T12:52:22.291Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "9fa5353f-eb57-480a-b820-4a2908f25be9",
+        "key_value": "u1v2w3x4y5",
+        "expires_at": "2023-09-21T12:20:25.304Z",
+        "created_at": "2023-09-21T08:59:48.563Z",
+        "updated_at": "2023-09-21T04:30:09.547Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "audit_log": [
+      {
+        "id": "2d10ca89-0e70-4f44-9df6-c2e9e93813ea",
+        "action": "Login",
+        "timestamp": "2023-09-21T08:29:49.044Z",
+        "description": "User logged in",
+        "ip_address": "192.168.0.1",
+        "device_info": "Windows 10",
+        "created_at": "2023-09-21T13:07:33.703Z",
+        "updated_at": "2023-09-21T07:14:22.492Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "177f8609-ae0d-4dcc-ad91-121e39af4657",
+        "action": "Logout",
+        "timestamp": "2023-09-21T15:37:59.087Z",
+        "description": "User logged out",
+        "ip_address": "10.0.0.1",
+        "device_info": "MacOS Mojave",
+        "created_at": "2023-09-21T10:05:49.562Z",
+        "updated_at": "2023-09-21T10:16:38.825Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "e21d20e9-caf6-47cd-913b-0a467c8fc20f",
+        "action": "Create",
+        "timestamp": "2023-09-20T17:18:27.049Z",
+        "description": "Record created",
+        "ip_address": "172.16.0.1",
+        "device_info": "iOS 13",
+        "created_at": "2023-09-21T06:28:42.795Z",
+        "updated_at": "2023-09-21T01:01:00.920Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "c43aea4c-55e7-4eb9-8ae9-a972532b49c1",
+        "action": "Update",
+        "timestamp": "2023-09-21T08:52:15.740Z",
+        "description": "Record updated",
+        "ip_address": "192.0.2.1",
+        "device_info": "Android 10",
+        "created_at": "2023-09-21T04:53:15.480Z",
+        "updated_at": "2023-09-21T10:30:03.834Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "5d5199e6-c1b7-4cd3-a65a-f83434b8d95a",
+        "action": "Delete",
+        "timestamp": "2023-09-21T14:02:11.964Z",
+        "description": "Record deleted",
+        "ip_address": "198.51.100.1",
+        "device_info": "Linux Mint",
+        "created_at": "2023-09-21T00:38:07.211Z",
+        "updated_at": "2023-09-21T06:46:08.392Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "account": [
+      {
+        "id": "278d8921-c50f-4eb6-82b8-18a789e61907",
+        "account_name": "Savings Account",
+        "status": "Active",
+        "created_at": "2023-09-21T04:00:04.484Z",
+        "updated_at": "2023-09-20T18:13:06.811Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "4cfa200f-d72c-4764-81fd-60821fc1ca01",
+        "account_name": "Checking Account",
+        "status": "Inactive",
+        "created_at": "2023-09-21T03:33:23.135Z",
+        "updated_at": "2023-09-20T20:53:50.509Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "f552245e-4f9d-487b-a28a-648302a1586b",
+        "account_name": "Investment Account",
+        "status": "Pending",
+        "created_at": "2023-09-21T00:59:31.561Z",
+        "updated_at": "2023-09-21T13:01:39.395Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "b922c8a5-6f05-4dee-bff9-3c735dd12c9d",
+        "account_name": "Credit Card",
+        "status": "Closed",
+        "created_at": "2023-09-21T13:06:21.653Z",
+        "updated_at": "2023-09-21T08:02:08.594Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "3d7693f5-4a25-4c24-a088-66be5ad01314",
+        "account_name": "Loan Account",
+        "status": "Suspended",
+        "created_at": "2023-09-21T16:53:16.103Z",
+        "updated_at": "2023-09-20T21:49:09.952Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "bb05cabb-ffe7-4d6c-b777-ce4ede50e663",
+        "email": "Georgiana88@roq.tech",
+        "firstName": "Manuel",
+        "lastName": "Howe",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/95822730",
+        "tenantId": null
+      },
+      {
+        "reference": "61db7d6b-f36d-48a1-af74-da933d10fdce",
+        "email": "Cassandra34@roq.tech",
+        "firstName": "Cassie",
+        "lastName": "Blick",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/1173.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "cf839c3b-82aa-40c5-86d5-a10e29557251",
+        "email": "Ignacio90@roq.tech",
+        "firstName": "Helmer",
+        "lastName": "Berge",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/894.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "94d8bc5d-170b-44a4-adc3-c3809db39778",
+        "email": "Dallin_Von39@roq.tech",
+        "firstName": "Trent",
+        "lastName": "Cormier",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/39210203",
+        "tenantId": null
+      },
+      {
+        "reference": "5e0a9091-f704-4b8b-a1cf-15686d6248a4",
+        "email": "Mona.Terry@roq.tech",
+        "firstName": "Magnus",
+        "lastName": "Nikolaus",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/31782703",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "session": [
+      {
+        "id": "c8f5b864-a022-46b3-b194-7ecf5cd76b04",
+        "login_time": "2023-09-21T16:15:22.922Z",
+        "logout_time": "2023-09-21T09:55:44.723Z",
+        "ip_address": "192.168.1.1",
+        "device_info": "Windows 10",
+        "location": "New York",
+        "created_at": "2023-09-21T06:21:15.717Z",
+        "updated_at": "2023-09-21T05:07:35.727Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "38a12ee3-271d-4cc2-82b0-4f0160e4116c",
+        "login_time": "2023-09-20T21:02:45.938Z",
+        "logout_time": "2023-09-20T17:01:04.239Z",
+        "ip_address": "10.0.0.1",
+        "device_info": "MacOS Catalina",
+        "location": "London",
+        "created_at": "2023-09-21T03:47:50.050Z",
+        "updated_at": "2023-09-21T11:28:33.090Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "9284ee42-810c-4619-9ce4-d9074a9217ab",
+        "login_time": "2023-09-20T18:23:15.060Z",
+        "logout_time": "2023-09-20T19:35:32.609Z",
+        "ip_address": "172.16.0.1",
+        "device_info": "iOS 14",
+        "location": "Tokyo",
+        "created_at": "2023-09-21T10:17:46.893Z",
+        "updated_at": "2023-09-21T08:25:01.195Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "8bb5b83f-44c6-4998-a576-bbce099812ae",
+        "login_time": "2023-09-21T05:25:11.478Z",
+        "logout_time": "2023-09-21T16:11:39.797Z",
+        "ip_address": "192.168.0.1",
+        "device_info": "Android 11",
+        "location": "Sydney",
+        "created_at": "2023-09-21T13:54:18.919Z",
+        "updated_at": "2023-09-20T22:46:00.761Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "49db9957-1706-49a4-99ba-d7c013637e9d",
+        "login_time": "2023-09-21T16:09:50.732Z",
+        "logout_time": "2023-09-21T03:35:53.761Z",
+        "ip_address": "10.1.1.1",
+        "device_info": "Linux Ubuntu",
+        "location": "Paris",
+        "created_at": "2023-09-21T12:03:17.891Z",
+        "updated_at": "2023-09-21T14:35:08.116Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "key": [
+      {
+        "id": "3562b709-3904-4964-b392-d1d505990eca",
+        "key_value": "abcdef123456",
+        "expires_at": "2023-09-20T20:59:41.488Z",
+        "created_at": "2023-09-21T06:28:58.619Z",
+        "updated_at": "2023-09-21T03:13:52.663Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "13a42f68-e1f5-4ceb-9419-70d7ae35b8a1",
+        "key_value": "987654qwerty",
+        "expires_at": "2023-09-21T05:59:09.540Z",
+        "created_at": "2023-09-20T19:06:36.719Z",
+        "updated_at": "2023-09-21T14:26:21.105Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "e9f842b7-febe-4e87-a2c3-da3b2351331d",
+        "key_value": "1a2b3c4d5e6f",
+        "expires_at": "2023-09-21T05:32:54.603Z",
+        "created_at": "2023-09-21T06:02:58.250Z",
+        "updated_at": "2023-09-21T05:25:59.786Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "6cab4789-2c4d-4cb2-a6b6-9a0bd2f1186f",
+        "key_value": "qwertyuiop123",
+        "expires_at": "2023-09-21T01:01:09.334Z",
+        "created_at": "2023-09-21T00:09:25.510Z",
+        "updated_at": "2023-09-21T06:14:52.647Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "ffdb69c2-b7c2-47f1-af63-ddcb9f8fdfe3",
+        "key_value": "zxcvbnm09876",
+        "expires_at": "2023-09-20T22:43:38.147Z",
+        "created_at": "2023-09-21T00:51:20.272Z",
+        "updated_at": "2023-09-21T10:30:14.725Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "audit_log": [
+      {
+        "id": "dded0f71-1501-4cf0-8641-ff01978d8041",
+        "action": "Login",
+        "timestamp": "2023-09-20T22:11:43.963Z",
+        "description": "User logged in",
+        "ip_address": "192.168.0.100",
+        "device_info": "Windows 7",
+        "created_at": "2023-09-21T08:46:34.924Z",
+        "updated_at": "2023-09-21T02:07:52.903Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "a4434346-026f-41f0-8a12-d73e04ad0b41",
+        "action": "Logout",
+        "timestamp": "2023-09-21T11:10:00.228Z",
+        "description": "User logged out",
+        "ip_address": "10.0.0.100",
+        "device_info": "MacOS Mojave",
+        "created_at": "2023-09-21T11:41:13.873Z",
+        "updated_at": "2023-09-21T07:18:11.221Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "904217e5-5c8b-4a17-a78a-a1e247824623",
+        "action": "Create",
+        "timestamp": "2023-09-21T03:01:10.756Z",
+        "description": "Record created",
+        "ip_address": "172.16.0.100",
+        "device_info": "iOS 13",
+        "created_at": "2023-09-20T18:47:17.341Z",
+        "updated_at": "2023-09-20T17:48:40.804Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "9764793d-69e8-4b69-b370-df2332679772",
+        "action": "Update",
+        "timestamp": "2023-09-21T09:36:19.544Z",
+        "description": "Record updated",
+        "ip_address": "192.168.1.100",
+        "device_info": "Android 10",
+        "created_at": "2023-09-21T04:51:13.111Z",
+        "updated_at": "2023-09-20T18:37:21.728Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "9ff48571-7e48-4860-a88c-1cdd02c0f7c1",
+        "action": "Delete",
+        "timestamp": "2023-09-20T18:48:01.096Z",
+        "description": "Record deleted",
+        "ip_address": "10.1.1.100",
+        "device_info": "Linux Mint",
+        "created_at": "2023-09-21T02:28:34.626Z",
+        "updated_at": "2023-09-21T11:44:47.482Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "account": [
+      {
+        "id": "082f6a14-251e-4085-812f-187a1515e9de",
+        "account_name": "Personal",
+        "status": "Active",
+        "created_at": "2023-09-21T08:36:12.569Z",
+        "updated_at": "2023-09-20T18:00:58.832Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "a34c1801-3337-4d00-aebe-3d841e34aac4",
+        "account_name": "Business",
+        "status": "Inactive",
+        "created_at": "2023-09-21T15:51:43.134Z",
+        "updated_at": "2023-09-21T04:31:30.366Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "462b05f4-4048-42c2-a8bd-a2e292ddb182",
+        "account_name": "Savings",
+        "status": "Pending",
+        "created_at": "2023-09-21T07:42:49.500Z",
+        "updated_at": "2023-09-21T14:44:29.004Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "1d02776c-f6ed-41d7-ba84-3a945c1bcd1e",
+        "account_name": "Checking",
+        "status": "Closed",
+        "created_at": "2023-09-21T13:07:18.774Z",
+        "updated_at": "2023-09-21T12:01:16.813Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "42235520-d8b6-4b51-aa59-044fd3d0ad99",
+        "account_name": "Investment",
+        "status": "Suspended",
+        "created_at": "2023-09-21T10:25:13.839Z",
+        "updated_at": "2023-09-21T09:46:28.827Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "ce4492e8-1b25-4d73-beab-dc715a41e07d",
+        "email": "Melba1@roq.tech",
+        "firstName": "Oscar",
+        "lastName": "Wintheiser",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/414.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "02256488-d1e1-4540-9684-7a43636e4572",
+        "email": "Yesenia_Kozey@roq.tech",
+        "firstName": "Jay",
+        "lastName": "Aufderhar",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/63122127",
+        "tenantId": null
+      },
+      {
+        "reference": "9e834b5e-12e0-424a-bc0d-806e10a5eb5a",
+        "email": "Adolfo_Gleichner@roq.tech",
+        "firstName": "Maud",
+        "lastName": "Fahey",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/682.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "68bf00c7-e115-4506-8494-d09eecb5b127",
+        "email": "Dakota_Zieme@roq.tech",
+        "firstName": "Mollie",
+        "lastName": "Schroeder",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/7283559",
+        "tenantId": null
+      },
+      {
+        "reference": "16041440-7239-41e5-a3f1-c56bcf92bc04",
+        "email": "Michaela.Roberts77@roq.tech",
+        "firstName": "Laury",
+        "lastName": "Zboncak",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/75218064",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "session": [
+      {
+        "id": "924afa54-be91-4cd7-a299-191ca8aa450e",
+        "login_time": "2023-09-21T06:40:28.207Z",
+        "logout_time": "2023-09-20T23:00:48.375Z",
+        "ip_address": "192.168.0.1",
+        "device_info": "Windows 10",
+        "location": "New York",
+        "created_at": "2023-09-21T08:03:25.781Z",
+        "updated_at": "2023-09-20T23:43:24.246Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "115e1227-09f2-4e75-81cb-c32e6264659c",
+        "login_time": "2023-09-21T00:10:38.440Z",
+        "logout_time": "2023-09-20T22:41:18.525Z",
+        "ip_address": "10.0.0.1",
+        "device_info": "MacOS Mojave",
+        "location": "London",
+        "created_at": "2023-09-20T23:25:13.314Z",
+        "updated_at": "2023-09-20T22:30:22.240Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "1fa455a2-6c08-4d94-902c-76362a6e3fcd",
+        "login_time": "2023-09-21T05:36:33.826Z",
+        "logout_time": "2023-09-20T19:05:18.345Z",
+        "ip_address": "172.16.0.1",
+        "device_info": "iOS 14",
+        "location": "Tokyo",
+        "created_at": "2023-09-21T11:44:13.540Z",
+        "updated_at": "2023-09-21T15:54:44.041Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "996c22b0-1416-4e3c-9088-51f65243f65c",
+        "login_time": "2023-09-20T21:40:24.825Z",
+        "logout_time": "2023-09-21T06:12:29.594Z",
+        "ip_address": "192.168.1.1",
+        "device_info": "Android 11",
+        "location": "Sydney",
+        "created_at": "2023-09-21T13:32:51.319Z",
+        "updated_at": "2023-09-21T14:34:02.127Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "5b1828a0-2286-4bc4-b966-8f45bd784947",
+        "login_time": "2023-09-21T11:48:59.473Z",
+        "logout_time": "2023-09-21T05:43:29.865Z",
+        "ip_address": "192.0.2.1",
+        "device_info": "Linux Ubuntu",
+        "location": "Paris",
+        "created_at": "2023-09-21T13:03:36.172Z",
+        "updated_at": "2023-09-20T23:42:29.864Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "key": [
+      {
+        "id": "89770d1f-c374-42b4-8c91-1a2355a6949c",
+        "key_value": "abcdef123456",
+        "expires_at": "2023-09-21T00:42:05.112Z",
+        "created_at": "2023-09-21T06:53:32.701Z",
+        "updated_at": "2023-09-21T09:41:04.367Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "d57a67d9-da8e-4016-8609-bf3e543149a5",
+        "key_value": "987654321abc",
+        "expires_at": "2023-09-21T12:37:47.584Z",
+        "created_at": "2023-09-20T23:12:22.565Z",
+        "updated_at": "2023-09-21T04:29:14.111Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "daca70bc-8775-41bb-bf9b-05e8c0a605f3",
+        "key_value": "qwertyuiop123",
+        "expires_at": "2023-09-21T00:48:34.496Z",
+        "created_at": "2023-09-20T18:40:49.013Z",
+        "updated_at": "2023-09-21T02:38:38.242Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "a114cd49-2df4-4fb3-8566-1f726755e803",
+        "key_value": "asdfghjkl456",
+        "expires_at": "2023-09-21T10:06:54.521Z",
+        "created_at": "2023-09-20T23:51:23.749Z",
+        "updated_at": "2023-09-21T10:09:44.728Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "5868d2ee-7f71-4459-91bd-0c9ec382f173",
+        "key_value": "zxcvbnm7890",
+        "expires_at": "2023-09-21T08:01:45.273Z",
+        "created_at": "2023-09-21T16:11:28.396Z",
+        "updated_at": "2023-09-20T16:59:58.785Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "audit_log": [
+      {
+        "id": "d45814e3-1592-4d09-9d56-6153dfa37e6c",
+        "action": "Login",
+        "timestamp": "2023-09-20T18:08:35.521Z",
+        "description": "User logged in",
+        "ip_address": "192.168.0.1",
+        "device_info": "Windows 10",
+        "created_at": "2023-09-21T02:27:51.645Z",
+        "updated_at": "2023-09-20T17:56:11.726Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "4d5d68b0-3791-414f-964b-b514fb22241a",
+        "action": "Logout",
+        "timestamp": "2023-09-21T10:07:13.402Z",
+        "description": "User logged out",
+        "ip_address": "10.0.0.1",
+        "device_info": "MacOS Mojave",
+        "created_at": "2023-09-21T14:44:00.723Z",
+        "updated_at": "2023-09-21T02:30:09.303Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "e4430c28-17e6-48c8-9291-039125b0d0cd",
+        "action": "Create",
+        "timestamp": "2023-09-21T12:14:08.078Z",
+        "description": "Record created",
+        "ip_address": "172.16.0.1",
+        "device_info": "iOS 14",
+        "created_at": "2023-09-21T00:50:18.074Z",
+        "updated_at": "2023-09-21T08:31:14.547Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "8267b274-05d3-4d20-a7f2-66fc906e25d0",
+        "action": "Update",
+        "timestamp": "2023-09-21T03:29:03.952Z",
+        "description": "Record updated",
+        "ip_address": "192.168.1.1",
+        "device_info": "Android 11",
+        "created_at": "2023-09-20T18:09:47.923Z",
+        "updated_at": "2023-09-20T17:28:24.957Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "7bbae680-f4f3-4a0f-bb3a-07c421381d56",
+        "action": "Delete",
+        "timestamp": "2023-09-21T10:56:40.008Z",
+        "description": "Record deleted",
+        "ip_address": "192.0.2.1",
+        "device_info": "Linux Ubuntu",
+        "created_at": "2023-09-21T15:40:41.155Z",
+        "updated_at": "2023-09-21T00:19:49.018Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "account": [
+      {
+        "id": "6583684b-45d3-4748-8c79-1c564bec9689",
+        "account_name": "Personal",
+        "status": "Active",
+        "created_at": "2023-09-21T03:46:20.652Z",
+        "updated_at": "2023-09-20T23:06:13.753Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "8d6c0135-906e-4463-b4c6-ca6c023021bf",
+        "account_name": "Business",
+        "status": "Inactive",
+        "created_at": "2023-09-21T00:21:49.981Z",
+        "updated_at": "2023-09-21T01:07:39.065Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "9f3e362b-d5d9-4615-9e33-f288c0680fb4",
+        "account_name": "Savings",
+        "status": "Pending",
+        "created_at": "2023-09-20T19:47:52.142Z",
+        "updated_at": "2023-09-20T23:18:19.319Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "6c686b9e-20ec-475c-84e1-e1598db492b9",
+        "account_name": "Investment",
+        "status": "Closed",
+        "created_at": "2023-09-20T17:21:07.760Z",
+        "updated_at": "2023-09-21T05:12:37.558Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "6625b78d-d4f6-414a-b183-f771af6d650b",
+        "account_name": "Joint",
+        "status": "Suspended",
+        "created_at": "2023-09-20T17:34:58.176Z",
+        "updated_at": "2023-09-21T04:09:10.150Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "47c05801-5063-400b-8a86-e5a4545980a1",
+        "email": "Wilhelm_Lebsack@roq.tech",
+        "firstName": "Tyrell",
+        "lastName": "Rosenbaum",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/296.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "d8bc4caa-0b8b-42ba-8bbb-e83e062dc6e6",
+        "email": "Ewell.McCullough51@roq.tech",
+        "firstName": "Audreanne",
+        "lastName": "Macejkovic",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/38526080",
+        "tenantId": null
+      },
+      {
+        "reference": "cb51eb78-f3ee-44f9-8ab5-4f2804e68fe5",
+        "email": "Lula72@roq.tech",
+        "firstName": "Hilda",
+        "lastName": "McDermott",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/575.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "5733bf0b-14c9-4627-8147-9bc316084474",
+        "email": "Cristina_Beahan@roq.tech",
+        "firstName": "Antonetta",
+        "lastName": "Raynor",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/33449255",
+        "tenantId": null
+      },
+      {
+        "reference": "c55ce813-f88c-4674-83f0-5b5a37e13aa0",
+        "email": "June_Collier95@roq.tech",
+        "firstName": "Matilde",
+        "lastName": "Kulas",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/1050.jpg",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "session": [
+      {
+        "id": "b2077f10-bf8f-4079-9c08-5a5f38a33692",
+        "login_time": "2023-09-21T10:48:37.606Z",
+        "logout_time": "2023-09-21T03:29:42.355Z",
+        "ip_address": "192.168.1.1",
+        "device_info": "Windows 10",
+        "location": "New York",
+        "created_at": "2023-09-20T22:15:39.335Z",
+        "updated_at": "2023-09-21T01:36:27.784Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "464da1b7-0b98-4c79-b488-f7df8ede6a65",
+        "login_time": "2023-09-20T17:49:14.929Z",
+        "logout_time": "2023-09-21T11:04:16.246Z",
+        "ip_address": "10.0.0.1",
+        "device_info": "MacOS Mojave",
+        "location": "London",
+        "created_at": "2023-09-21T09:02:04.274Z",
+        "updated_at": "2023-09-21T04:09:16.700Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "b00aa811-5f4e-41f6-b9a0-71f8ced0ef58",
+        "login_time": "2023-09-20T22:17:03.159Z",
+        "logout_time": "2023-09-21T10:16:04.434Z",
+        "ip_address": "172.16.0.1",
+        "device_info": "iOS 13",
+        "location": "Tokyo",
+        "created_at": "2023-09-21T16:44:55.245Z",
+        "updated_at": "2023-09-20T21:55:38.769Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "002fd071-041e-47af-9c12-5a184b3dd26e",
+        "login_time": "2023-09-21T03:51:35.530Z",
+        "logout_time": "2023-09-21T11:57:49.731Z",
+        "ip_address": "192.0.2.1",
+        "device_info": "Android 10",
+        "location": "Sydney",
+        "created_at": "2023-09-20T23:29:08.887Z",
+        "updated_at": "2023-09-21T07:10:33.163Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "ea7ec3e5-b75c-4283-8f4a-74dc804e8925",
+        "login_time": "2023-09-21T00:49:59.626Z",
+        "logout_time": "2023-09-21T10:15:03.236Z",
+        "ip_address": "198.51.100.1",
+        "device_info": "Linux Ubuntu",
+        "location": "Paris",
+        "created_at": "2023-09-21T03:06:21.413Z",
+        "updated_at": "2023-09-21T05:19:55.242Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "key": [
+      {
+        "id": "86489fe5-5bf9-4c96-82d5-ffaf854046da",
+        "key_value": "ABC123",
+        "expires_at": "2023-09-21T01:08:22.658Z",
+        "created_at": "2023-09-20T18:48:18.165Z",
+        "updated_at": "2023-09-21T03:48:58.361Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "1243e543-5d1f-4957-b851-17b10eb18d25",
+        "key_value": "DEF456",
+        "expires_at": "2023-09-21T06:38:05.118Z",
+        "created_at": "2023-09-21T07:46:33.275Z",
+        "updated_at": "2023-09-21T03:39:12.521Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "1ad7ab4f-05af-46e2-9fe2-636536540678",
+        "key_value": "GHI789",
+        "expires_at": "2023-09-20T17:59:18.531Z",
+        "created_at": "2023-09-21T09:27:08.996Z",
+        "updated_at": "2023-09-21T00:00:40.872Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "3f51e058-e2c9-4437-92a1-5314bd3d2f40",
+        "key_value": "JKL012",
+        "expires_at": "2023-09-21T02:24:23.077Z",
+        "created_at": "2023-09-21T05:02:35.485Z",
+        "updated_at": "2023-09-21T02:38:07.962Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "efe328c9-8ca5-498e-9d26-271bddf67c20",
+        "key_value": "MNO345",
+        "expires_at": "2023-09-21T10:21:04.006Z",
+        "created_at": "2023-09-21T08:42:36.914Z",
+        "updated_at": "2023-09-21T07:08:52.506Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "audit_log": [
+      {
+        "id": "3982b427-ea73-4fcf-a158-fa86d4600e8e",
+        "action": "Login",
+        "timestamp": "2023-09-21T11:14:52.403Z",
+        "description": "User logged in",
+        "ip_address": "192.168.1.10",
+        "device_info": "Windows 7",
+        "created_at": "2023-09-20T18:45:05.118Z",
+        "updated_at": "2023-09-20T21:03:15.240Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "ea1f7ec2-3fd4-4092-bec9-6f934cc5194a",
+        "action": "Logout",
+        "timestamp": "2023-09-21T02:45:29.950Z",
+        "description": "User logged out",
+        "ip_address": "10.0.0.100",
+        "device_info": "MacOS High Sierra",
+        "created_at": "2023-09-21T16:48:20.684Z",
+        "updated_at": "2023-09-20T17:43:06.073Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "e4952ae2-1e72-4aeb-a676-6f00dbe5a68c",
+        "action": "Create",
+        "timestamp": "2023-09-21T05:49:42.779Z",
+        "description": "Record created",
+        "ip_address": "172.16.0.100",
+        "device_info": "iOS 12",
+        "created_at": "2023-09-20T21:56:00.267Z",
+        "updated_at": "2023-09-21T01:45:20.398Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "e8c32a96-ca9f-43fe-be20-24b5dfcd8dbc",
+        "action": "Update",
+        "timestamp": "2023-09-21T13:32:42.301Z",
+        "description": "Record updated",
+        "ip_address": "192.0.2.100",
+        "device_info": "Android 9",
+        "created_at": "2023-09-21T00:00:41.786Z",
+        "updated_at": "2023-09-21T03:52:58.377Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "a0f4da12-9b55-44e3-8fa7-caa2f6abadaf",
+        "action": "Delete",
+        "timestamp": "2023-09-20T21:34:52.319Z",
+        "description": "Record deleted",
+        "ip_address": "198.51.100.100",
+        "device_info": "Linux Fedora",
+        "created_at": "2023-09-21T06:54:29.296Z",
+        "updated_at": "2023-09-20T18:51:49.639Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "account": [
+      {
+        "id": "c5bfaa08-14ff-4fec-b4bb-e3a19f49979f",
+        "account_name": "Savings",
+        "status": "Active",
+        "created_at": "2023-09-21T01:03:05.801Z",
+        "updated_at": "2023-09-21T04:31:40.396Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "1281f9f8-44e7-4f90-8760-a51e3b849cb1",
+        "account_name": "Checking",
+        "status": "Inactive",
+        "created_at": "2023-09-21T08:20:12.757Z",
+        "updated_at": "2023-09-21T06:42:56.813Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "a82b6be8-59ca-43d8-990e-30ba5b153591",
+        "account_name": "Investment",
+        "status": "Pending",
+        "created_at": "2023-09-20T17:25:47.486Z",
+        "updated_at": "2023-09-21T10:31:15.775Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "02868275-cbf4-430e-a9fc-94a3240a2abe",
+        "account_name": "Credit Card",
+        "status": "Closed",
+        "created_at": "2023-09-21T08:59:43.400Z",
+        "updated_at": "2023-09-21T02:44:51.075Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "e7fedbcf-6043-405d-8a90-86e01e8f3ee7",
+        "account_name": "Loan",
+        "status": "Suspended",
+        "created_at": "2023-09-21T11:14:03.457Z",
+        "updated_at": "2023-09-21T15:02:27.688Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "a53a0808-f0b1-4b0a-97a5-d21a4790b82f",
+        "email": "Alessandra_Collier@roq.tech",
+        "firstName": "Vernon",
+        "lastName": "Schamberger",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/81.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "81154233-2bfa-43e8-a194-982cad5bfcee",
+        "email": "Litzy_Hamill@roq.tech",
+        "firstName": "Carlo",
+        "lastName": "McCullough",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/82864220",
+        "tenantId": null
+      },
+      {
+        "reference": "7829fda8-8222-42e3-be87-01177cd2fa52",
+        "email": "Jacey_Lebsack29@roq.tech",
+        "firstName": "Demond",
+        "lastName": "Von",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/42200500",
+        "tenantId": null
+      },
+      {
+        "reference": "1287f83b-e88a-47bc-b8c2-1965ff338c6f",
+        "email": "Aiyana49@roq.tech",
+        "firstName": "Rosetta",
+        "lastName": "McKenzie",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/957.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "66bb3fa0-f994-46fc-bd57-f006bf33b707",
+        "email": "Amelia7@roq.tech",
+        "firstName": "Remington",
+        "lastName": "McKenzie",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/397.jpg",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "session": [
+      {
+        "id": "59c2369d-099d-4aec-a4ed-871271d021c3",
+        "login_time": "2023-09-21T10:12:29.228Z",
+        "logout_time": "2023-09-21T03:51:34.543Z",
+        "ip_address": "192.168.0.1",
+        "device_info": "Windows 10",
+        "location": "New York",
+        "created_at": "2023-09-21T13:07:04.894Z",
+        "updated_at": "2023-09-20T21:12:08.630Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "3477ad5b-21a9-4b76-8e44-7a5fffcc5f87",
+        "login_time": "2023-09-21T06:27:54.949Z",
+        "logout_time": "2023-09-21T09:44:25.971Z",
+        "ip_address": "10.0.0.1",
+        "device_info": "MacOS Mojave",
+        "location": "London",
+        "created_at": "2023-09-21T13:39:57.607Z",
+        "updated_at": "2023-09-21T01:00:36.182Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "ef8fdd6a-0d77-4eb1-a4c4-315e18b58687",
+        "login_time": "2023-09-21T00:59:58.591Z",
+        "logout_time": "2023-09-21T06:24:27.324Z",
+        "ip_address": "172.16.0.1",
+        "device_info": "iOS 14",
+        "location": "Tokyo",
+        "created_at": "2023-09-21T11:56:00.904Z",
+        "updated_at": "2023-09-20T20:54:11.358Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "3b6ec8e8-dda0-40df-b42f-2682e2117e80",
+        "login_time": "2023-09-21T08:55:25.829Z",
+        "logout_time": "2023-09-21T02:30:15.146Z",
+        "ip_address": "192.168.1.1",
+        "device_info": "Android 10",
+        "location": "Sydney",
+        "created_at": "2023-09-21T04:34:52.580Z",
+        "updated_at": "2023-09-21T04:52:29.214Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "4472a6f3-2b7d-4990-843b-f32875250400",
+        "login_time": "2023-09-21T02:10:32.187Z",
+        "logout_time": "2023-09-20T23:21:31.781Z",
+        "ip_address": "10.0.1.1",
+        "device_info": "Linux Ubuntu",
+        "location": "Paris",
+        "created_at": "2023-09-21T12:54:01.470Z",
+        "updated_at": "2023-09-21T07:19:52.365Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "key": [
+      {
+        "id": "c8eb55ef-c91e-428d-a818-7fc623e33a87",
+        "key_value": "abcdef12345",
+        "expires_at": "2023-09-21T03:58:40.809Z",
+        "created_at": "2023-09-21T07:44:50.983Z",
+        "updated_at": "2023-09-20T23:38:14.592Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "7458afc6-b135-4484-b85f-4e00f6289afd",
+        "key_value": "qwerty09876",
+        "expires_at": "2023-09-21T16:54:22.084Z",
+        "created_at": "2023-09-20T22:09:59.423Z",
+        "updated_at": "2023-09-21T07:16:54.016Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "377e1e4b-6e2e-4163-be95-b6c3bbb201df",
+        "key_value": "1234567890",
+        "expires_at": "2023-09-21T05:29:45.424Z",
+        "created_at": "2023-09-21T08:58:32.366Z",
+        "updated_at": "2023-09-21T11:48:21.685Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "ea3f3a1c-a7f4-44ef-8717-aeb5a8f1e20c",
+        "key_value": "asdfghjkl123",
+        "expires_at": "2023-09-20T18:00:36.957Z",
+        "created_at": "2023-09-21T09:24:56.436Z",
+        "updated_at": "2023-09-21T08:52:55.962Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "c658a774-c531-4e10-aaee-0d116fc9475e",
+        "key_value": "zxcvbnm98765",
+        "expires_at": "2023-09-20T20:17:59.263Z",
+        "created_at": "2023-09-20T23:23:34.983Z",
+        "updated_at": "2023-09-20T21:50:02.716Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "audit_log": [
+      {
+        "id": "8459b0ea-37aa-48ea-8d30-3e00911d2bc4",
+        "action": "Login",
+        "timestamp": "2023-09-20T23:08:25.299Z",
+        "description": "User login activity",
+        "ip_address": "192.168.0.10",
+        "device_info": "Windows 11",
+        "created_at": "2023-09-21T07:43:10.272Z",
+        "updated_at": "2023-09-21T07:35:06.510Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "b453d256-4ebe-462f-9c16-602ce367ac6c",
+        "action": "Logout",
+        "timestamp": "2023-09-20T22:22:54.248Z",
+        "description": "Client creation",
+        "ip_address": "10.0.0.20",
+        "device_info": "MacOS Monterey",
+        "created_at": "2023-09-21T16:29:12.012Z",
+        "updated_at": "2023-09-20T17:23:54.203Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "1ff58b80-b92b-45cf-aebd-27fa45392e48",
+        "action": "Create",
+        "timestamp": "2023-09-21T01:15:45.092Z",
+        "description": "Account update",
+        "ip_address": "172.16.0.30",
+        "device_info": "iOS 15",
+        "created_at": "2023-09-21T01:24:04.170Z",
+        "updated_at": "2023-09-21T04:02:04.836Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "e098ae4d-51ec-4239-87f3-c0156bfd66d7",
+        "action": "Update",
+        "timestamp": "2023-09-21T05:08:41.470Z",
+        "description": "Session deletion",
+        "ip_address": "192.168.1.40",
+        "device_info": "Android 11",
+        "created_at": "2023-09-21T01:19:29.914Z",
+        "updated_at": "2023-09-21T14:20:34.338Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "5f26b4d2-3e08-4469-aa0d-b2d990a7aea2",
+        "action": "Delete",
+        "timestamp": "2023-09-21T05:54:45.541Z",
+        "description": "Key value retrieval",
+        "ip_address": "10.0.1.50",
+        "device_info": "Linux Fedora",
+        "created_at": "2023-09-21T02:40:24.940Z",
+        "updated_at": "2023-09-21T05:26:43.329Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "account": [
+      {
+        "id": "95091723-7b80-45a3-b3d7-3c68546a071d",
+        "account_name": "Personal Savings",
+        "status": "Active",
+        "created_at": "2023-09-20T21:37:25.537Z",
+        "updated_at": "2023-09-21T01:52:57.440Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "fd3ccd4b-ddac-4a47-b6f7-85066ed88acd",
+        "account_name": "Business Checking",
+        "status": "Inactive",
+        "created_at": "2023-09-21T14:28:09.337Z",
+        "updated_at": "2023-09-21T16:48:10.896Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "24bc7b4e-a112-490c-94bb-7818d43ee9fb",
+        "account_name": "Investment Portfolio",
+        "status": "Pending",
+        "created_at": "2023-09-21T07:14:24.896Z",
+        "updated_at": "2023-09-21T09:28:40.088Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "b94452ac-6b8d-4b94-bd43-c3fcea9179a9",
+        "account_name": "Credit Card",
+        "status": "Blocked",
+        "created_at": "2023-09-21T02:47:54.555Z",
+        "updated_at": "2023-09-21T05:08:53.164Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "9d98e88d-9c28-4a99-a6a7-67fb426fc0b4",
+        "account_name": "Mortgage Loan",
+        "status": "Closed",
+        "created_at": "2023-09-20T22:21:38.161Z",
+        "updated_at": "2023-09-21T03:44:19.990Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "4c6c66eb-c9dd-4ee0-aded-d5246ecbc7ef",
+        "email": "Josiane_Christiansen@roq.tech",
+        "firstName": "Lysanne",
+        "lastName": "Nienow",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/106.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "5f300d41-e89e-4588-983f-b692263261da",
+        "email": "Nicolette.Marks49@roq.tech",
+        "firstName": "Tanner",
+        "lastName": "Ankunding-Lind",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/1075.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "72a30772-d43a-44b1-8d4a-7c83dc5bee58",
+        "email": "Brionna.Huels@roq.tech",
+        "firstName": "Filiberto",
+        "lastName": "Parker",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/44504477",
+        "tenantId": null
+      },
+      {
+        "reference": "0195b59d-6157-4298-97cf-ecc084a92dce",
+        "email": "Elise.Greenfelder98@roq.tech",
+        "firstName": "Lamont",
+        "lastName": "Buckridge",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/62555016",
+        "tenantId": null
+      },
+      {
+        "reference": "7899a584-9a13-494c-8ffa-f43fc42e64e9",
+        "email": "Raul53@roq.tech",
+        "firstName": "Ben",
+        "lastName": "Collins",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/84297079",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "session": [
+      {
+        "id": "8de31658-6b5c-40f9-8820-b35b0751604b",
+        "login_time": "2023-09-20T21:19:02.485Z",
+        "logout_time": "2023-09-21T05:48:02.488Z",
+        "ip_address": "192.168.0.1",
+        "device_info": "Windows 10",
+        "location": "New York",
+        "created_at": "2023-09-21T04:55:30.038Z",
+        "updated_at": "2023-09-20T23:56:21.713Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "6b57a264-ff88-4510-8cb3-b6e03abcec91",
+        "login_time": "2023-09-20T18:36:29.060Z",
+        "logout_time": "2023-09-21T16:47:44.823Z",
+        "ip_address": "10.0.0.1",
+        "device_info": "MacOS Catalina",
+        "location": "London",
+        "created_at": "2023-09-21T08:46:42.450Z",
+        "updated_at": "2023-09-21T10:16:36.230Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "3538ae33-c7ab-4a7f-9576-af336961cd56",
+        "login_time": "2023-09-21T10:44:34.713Z",
+        "logout_time": "2023-09-21T11:51:57.158Z",
+        "ip_address": "172.16.0.1",
+        "device_info": "iOS 14",
+        "location": "Tokyo",
+        "created_at": "2023-09-21T08:19:18.996Z",
+        "updated_at": "2023-09-20T20:11:47.474Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "cd550761-fe3d-4ea5-87da-ce48332b17b7",
+        "login_time": "2023-09-20T19:25:12.975Z",
+        "logout_time": "2023-09-21T12:34:39.629Z",
+        "ip_address": "192.168.1.1",
+        "device_info": "Android 11",
+        "location": "Sydney",
+        "created_at": "2023-09-20T18:48:05.373Z",
+        "updated_at": "2023-09-20T17:13:57.406Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "b5da0de0-fbad-4e4c-9989-68616d8569c8",
+        "login_time": "2023-09-21T02:46:38.782Z",
+        "logout_time": "2023-09-21T10:43:29.845Z",
+        "ip_address": "10.0.1.1",
+        "device_info": "Linux Ubuntu",
+        "location": "Paris",
+        "created_at": "2023-09-21T00:56:45.303Z",
+        "updated_at": "2023-09-21T13:25:19.728Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "key": [
+      {
+        "id": "dbf046c9-bafa-457c-bbcc-bd4c6ead001c",
+        "key_value": "abc123",
+        "expires_at": "2023-09-21T04:28:21.489Z",
+        "created_at": "2023-09-21T11:04:06.697Z",
+        "updated_at": "2023-09-21T04:33:52.986Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "58ef4094-6725-4fae-881d-4e824262b7a4",
+        "key_value": "def456",
+        "expires_at": "2023-09-20T23:29:04.752Z",
+        "created_at": "2023-09-21T05:06:45.740Z",
+        "updated_at": "2023-09-20T20:22:06.061Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "37f37d9c-67af-4df9-ba4b-b59eb92380a0",
+        "key_value": "ghi789",
+        "expires_at": "2023-09-21T12:03:14.197Z",
+        "created_at": "2023-09-21T16:20:27.437Z",
+        "updated_at": "2023-09-21T09:55:27.833Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "c10e7587-7c4f-4e8a-a09a-91aa2ecefda1",
+        "key_value": "jkl012",
+        "expires_at": "2023-09-20T18:56:05.054Z",
+        "created_at": "2023-09-21T15:02:35.016Z",
+        "updated_at": "2023-09-21T11:41:09.464Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "aaa293a8-0166-41b0-9722-c76e91e8f77a",
+        "key_value": "mno345",
+        "expires_at": "2023-09-21T01:16:09.361Z",
+        "created_at": "2023-09-20T22:09:25.346Z",
+        "updated_at": "2023-09-20T20:50:58.387Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "audit_log": [
+      {
+        "id": "6ce9ce05-7d90-4e3c-a2df-671f660d1113",
+        "action": "Login",
+        "timestamp": "2023-09-21T14:16:40.218Z",
+        "description": "User logged in",
+        "ip_address": "192.168.0.100",
+        "device_info": "Windows 7",
+        "created_at": "2023-09-21T08:27:17.090Z",
+        "updated_at": "2023-09-21T13:22:21.907Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "b021a17b-a638-4cce-99d8-1dd6eacf2ab0",
+        "action": "Logout",
+        "timestamp": "2023-09-21T07:57:42.302Z",
+        "description": "User logged out",
+        "ip_address": "10.0.0.100",
+        "device_info": "MacOS Mojave",
+        "created_at": "2023-09-20T20:53:54.175Z",
+        "updated_at": "2023-09-21T05:41:02.559Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "fdfde94e-1616-462a-9918-1937b3271dc2",
+        "action": "Create",
+        "timestamp": "2023-09-21T15:58:55.942Z",
+        "description": "Record created",
+        "ip_address": "172.16.0.100",
+        "device_info": "iOS 12",
+        "created_at": "2023-09-21T09:27:05.090Z",
+        "updated_at": "2023-09-21T04:38:15.320Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "31846a0c-3c9d-45ba-b270-8f3342505b56",
+        "action": "Update",
+        "timestamp": "2023-09-20T18:07:22.898Z",
+        "description": "Record updated",
+        "ip_address": "192.168.1.100",
+        "device_info": "Android 9",
+        "created_at": "2023-09-21T07:41:55.980Z",
+        "updated_at": "2023-09-20T21:15:55.433Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "f754e8a6-254b-4940-b494-047e40d4f96d",
+        "action": "Delete",
+        "timestamp": "2023-09-20T21:41:51.334Z",
+        "description": "Record deleted",
+        "ip_address": "10.0.1.100",
+        "device_info": "Linux Fedora",
+        "created_at": "2023-09-21T15:27:29.593Z",
+        "updated_at": "2023-09-21T01:21:34.056Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "account": [
+      {
+        "id": "159f8dfd-af1d-4d37-8269-ecf8049a9e4d",
+        "account_name": "Savings",
+        "status": "Active",
+        "created_at": "2023-09-20T19:44:59.413Z",
+        "updated_at": "2023-09-21T10:40:07.907Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "8e3fbc65-7989-4086-8494-b2a8ee1cb9cd",
+        "account_name": "Checking",
+        "status": "Inactive",
+        "created_at": "2023-09-21T05:51:48.081Z",
+        "updated_at": "2023-09-21T15:10:36.946Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "6c8a4899-669e-4731-9cfc-3064f46fa4da",
+        "account_name": "Investment",
+        "status": "Pending",
+        "created_at": "2023-09-21T13:51:07.370Z",
+        "updated_at": "2023-09-21T10:51:45.293Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "83ddd624-98cf-47fc-b807-0a8e3e36fd05",
+        "account_name": "Credit Card",
+        "status": "Blocked",
+        "created_at": "2023-09-21T14:59:14.156Z",
+        "updated_at": "2023-09-20T20:22:03.715Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "18ec30e7-6b67-423c-87bd-f03fe10a35f9",
+        "account_name": "Loan",
+        "status": "Closed",
+        "created_at": "2023-09-21T10:12:53.825Z",
+        "updated_at": "2023-09-21T16:28:35.498Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "faf2b15b-0374-4bce-b121-b1618e94d880",
+        "email": "Josianne_Boyer19@roq.tech",
+        "firstName": "Dylan",
+        "lastName": "Leffler",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/804.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "5364f33b-35e1-4f53-a779-636bdbcafe02",
+        "email": "Elenor.Ward2@roq.tech",
+        "firstName": "Mittie",
+        "lastName": "Gibson",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/91485011",
+        "tenantId": null
+      },
+      {
+        "reference": "29292b6d-9c71-4d26-9682-24cd2f8cf135",
+        "email": "Erica.Pollich-Stark@roq.tech",
+        "firstName": "Hiram",
+        "lastName": "Hackett",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/36012580",
+        "tenantId": null
+      },
+      {
+        "reference": "03b44b3c-700b-4380-b55e-de6d4dd027f9",
+        "email": "Rubie_Jenkins80@roq.tech",
+        "firstName": "Henri",
+        "lastName": "Steuber",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/755.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "9792a0df-87c7-4f2c-8b6c-a930e04ac635",
+        "email": "Madalyn.Rice0@roq.tech",
+        "firstName": "Garth",
+        "lastName": "Feest",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/88091307",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "session": [
+      {
+        "id": "49378591-2fb1-40d7-8627-6bc7bb46eb79",
+        "login_time": "2023-09-21T10:05:17.835Z",
+        "logout_time": "2023-09-20T23:07:46.955Z",
+        "ip_address": "192.168.0.1",
+        "device_info": "Windows 10",
+        "location": "New York",
+        "created_at": "2023-09-21T02:30:25.881Z",
+        "updated_at": "2023-09-21T12:19:16.793Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "02ca4795-7e58-43d1-8ccd-320b2932254b",
+        "login_time": "2023-09-21T11:52:54.500Z",
+        "logout_time": "2023-09-21T16:34:04.943Z",
+        "ip_address": "10.0.0.1",
+        "device_info": "MacOS Mojave",
+        "location": "London",
+        "created_at": "2023-09-21T07:29:33.494Z",
+        "updated_at": "2023-09-20T17:54:40.809Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "b17e53c1-292c-4e5b-a201-21b1de579809",
+        "login_time": "2023-09-20T17:59:40.574Z",
+        "logout_time": "2023-09-20T21:26:25.166Z",
+        "ip_address": "172.16.0.1",
+        "device_info": "iOS 13",
+        "location": "Tokyo",
+        "created_at": "2023-09-20T18:08:30.982Z",
+        "updated_at": "2023-09-21T01:19:55.809Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "a2c9a5b5-a834-4512-8d33-c043c494f8d4",
+        "login_time": "2023-09-20T19:49:45.005Z",
+        "logout_time": "2023-09-21T08:08:59.578Z",
+        "ip_address": "192.0.2.1",
+        "device_info": "Android 10",
+        "location": "Sydney",
+        "created_at": "2023-09-21T09:19:33.872Z",
+        "updated_at": "2023-09-20T19:32:02.270Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "05b3cc74-5e74-4d69-b375-c3310be9452f",
+        "login_time": "2023-09-20T20:23:22.584Z",
+        "logout_time": "2023-09-21T11:46:37.595Z",
+        "ip_address": "198.51.100.1",
+        "device_info": "Linux Ubuntu",
+        "location": "Paris",
+        "created_at": "2023-09-21T15:41:46.394Z",
+        "updated_at": "2023-09-20T18:37:11.507Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "key": [
+      {
+        "id": "25918c3e-f90c-4618-9e08-60b8d5aba5b9",
+        "key_value": "abcdef123456",
+        "expires_at": "2023-09-20T19:22:36.467Z",
+        "created_at": "2023-09-20T17:01:47.180Z",
+        "updated_at": "2023-09-20T17:40:38.314Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "a0c734bb-1f7b-4a7f-813a-a62e4f010cc9",
+        "key_value": "987654fedcba",
+        "expires_at": "2023-09-21T08:27:02.200Z",
+        "created_at": "2023-09-20T18:01:02.843Z",
+        "updated_at": "2023-09-21T11:28:35.304Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "d0fdce91-02a6-47b2-9b13-6abfb5fa45ab",
+        "key_value": "1a2b3c4d5e6f",
+        "expires_at": "2023-09-21T09:02:40.594Z",
+        "created_at": "2023-09-21T05:48:38.481Z",
+        "updated_at": "2023-09-21T06:54:46.727Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "353e7dd1-9af9-406f-8512-6930e31c92b3",
+        "key_value": "f6e5d4c3b2a1",
+        "expires_at": "2023-09-21T13:58:02.149Z",
+        "created_at": "2023-09-21T16:32:52.202Z",
+        "updated_at": "2023-09-21T04:26:28.332Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "481b13c3-1040-4c54-b78f-8454ab69d51e",
+        "key_value": "qwertyuiopasdf",
+        "expires_at": "2023-09-21T08:06:50.620Z",
+        "created_at": "2023-09-21T02:01:35.765Z",
+        "updated_at": "2023-09-21T00:46:05.360Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "audit_log": [
+      {
+        "id": "03142d28-ed7b-4367-b680-7b4effd72d65",
+        "action": "Login",
+        "timestamp": "2023-09-20T20:57:54.426Z",
+        "description": "User logged in",
+        "ip_address": "192.168.0.10",
+        "device_info": "Windows 7",
+        "created_at": "2023-09-20T18:47:45.078Z",
+        "updated_at": "2023-09-21T11:33:58.445Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "cc00d91c-8bee-4d27-bb29-57a1982efac4",
+        "action": "Logout",
+        "timestamp": "2023-09-21T11:28:08.494Z",
+        "description": "User logged out",
+        "ip_address": "10.0.0.100",
+        "device_info": "MacOS High Sierra",
+        "created_at": "2023-09-20T21:34:26.046Z",
+        "updated_at": "2023-09-21T07:02:29.810Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "4c42ccdf-3805-4438-bc15-967e5dc79e9d",
+        "action": "Create",
+        "timestamp": "2023-09-20T18:52:18.784Z",
+        "description": "Record created",
+        "ip_address": "172.16.0.50",
+        "device_info": "iOS 12",
+        "created_at": "2023-09-21T13:53:57.124Z",
+        "updated_at": "2023-09-21T09:38:00.367Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "48b10c96-13df-405c-806d-6cba09945cc0",
+        "action": "Update",
+        "timestamp": "2023-09-21T01:20:50.763Z",
+        "description": "Record updated",
+        "ip_address": "192.0.2.100",
+        "device_info": "Android 9",
+        "created_at": "2023-09-20T23:58:19.167Z",
+        "updated_at": "2023-09-21T07:13:47.570Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "1ad7bc06-faab-406f-98ec-65633577350b",
+        "action": "Delete",
+        "timestamp": "2023-09-21T00:20:45.170Z",
+        "description": "Record deleted",
+        "ip_address": "198.51.100.50",
+        "device_info": "Linux Mint",
+        "created_at": "2023-09-21T07:05:29.513Z",
+        "updated_at": "2023-09-20T23:23:32.538Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "account": [
+      {
+        "id": "9e672975-2c62-40b7-baf4-e11459d5ae42",
+        "account_name": "Personal",
+        "status": "Active",
+        "created_at": "2023-09-20T17:17:54.772Z",
+        "updated_at": "2023-09-21T06:44:47.886Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "cf0e78f7-a232-4213-86c1-fb3399d6ae1b",
+        "account_name": "Business",
+        "status": "Inactive",
+        "created_at": "2023-09-21T08:28:23.701Z",
+        "updated_at": "2023-09-21T13:34:45.060Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "39f9fc0e-e71e-4f3a-acdd-1295a71ebbed",
+        "account_name": "Savings",
+        "status": "Pending",
+        "created_at": "2023-09-20T17:38:12.928Z",
+        "updated_at": "2023-09-21T11:02:29.746Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "c298ded2-fce6-4583-b3ce-de4abe082f57",
+        "account_name": "Checking",
+        "status": "Closed",
+        "created_at": "2023-09-21T15:59:52.901Z",
+        "updated_at": "2023-09-20T21:22:17.880Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "45ac2a74-9185-4cfe-871d-5f4a70f4fb64",
+        "account_name": "Investment",
+        "status": "Suspended",
+        "created_at": "2023-09-20T22:06:01.959Z",
+        "updated_at": "2023-09-20T22:11:25.123Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "496b4401-a0b2-4fa5-9758-bb60df58bc85",
+        "email": "Garland_Hilll@roq.tech",
+        "firstName": "Sadye",
+        "lastName": "Bechtelar",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/80810097",
+        "tenantId": null
+      },
+      {
+        "reference": "003dec93-19a6-4076-a2c3-4db6d6c6fe29",
+        "email": "Myrtle_Schaefer@roq.tech",
+        "firstName": "Neil",
+        "lastName": "Johnson",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/1648910",
+        "tenantId": null
+      },
+      {
+        "reference": "7f2daa55-0c04-4ae7-b01b-a9e4de1cc9d4",
+        "email": "Grayson.Carter7@roq.tech",
+        "firstName": "Dustin",
+        "lastName": "Heathcote",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/76165575",
+        "tenantId": null
+      },
+      {
+        "reference": "c61f27b1-a3c2-4698-9a46-e4c21cf1f559",
+        "email": "Tyson_Herzog@roq.tech",
+        "firstName": "Maximus",
+        "lastName": "Tromp",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/392.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "13fd856c-34df-4d5e-8bec-b956b6339f52",
+        "email": "Demetrius10@roq.tech",
+        "firstName": "Everardo",
+        "lastName": "Ebert",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/42290657",
+        "tenantId": null
+      }
+    ]
+  }
+]
